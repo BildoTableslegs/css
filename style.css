@@ -1042,6 +1042,7 @@ button:hover{
     position: relative;
     display: flex;
     align-items: center;
+    min-height: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
