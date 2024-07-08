@@ -627,6 +627,11 @@ label{
     margin-bottom: 15px;
 }
 
+.store-prop-embed{
+    max-width: 250px !important;
+    max-height: 250px !important;
+}
+
 .container{
     padding: 2rem;
     width: 100vh;
