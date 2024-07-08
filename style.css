@@ -655,7 +655,7 @@ label{
     flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: cover;
-    max-height: 250px;
+    height: 256px;
     max-width: 100%;
 }
 
