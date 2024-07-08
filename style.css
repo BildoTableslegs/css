@@ -628,8 +628,8 @@ label{
 }
 
 .store-prop-embed{
-    max-width: 250px !important;
-    max-height: 250px !important;
+    max-width: 256px !important;
+    max-height: 256px !important;
 }
 
 .container{
