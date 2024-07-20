@@ -487,6 +487,11 @@ textarea {
     box-shadow: 0 0 25px var(--main-accent-50-color) !important;
 }
 
+.inline-form-control{
+    align-content: start;
+    align-items: start;
+}
+
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
@@ -514,20 +519,27 @@ label{
     margin-bottom: 5px;
     flex-basis: 0 !important;
     flex: 1 1 0px !important;
-    padding: 0.5rem;
-    
-    
+    padding: 0 5px;
 }
 
-.inline-form-control{
-    align-content: start;
-    align-items: start;
+.dashboard-container button{
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 3px;
+    font-size: 0.9rem !important;
+    margin-left: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
-
+.dashboard-container button:hover{
+    background-color: var(--accent-4-color) !important;
+}
 
 .dashboard-container p {
     height: min-content;
+    border-right: 1px solid var(--accent-color);
     font-size: 0.9rem !important;
 }
 
@@ -1263,6 +1275,11 @@ textarea {
     box-shadow: 0 0 25px var(--main-accent-50-color) !important;
 }
 
+.inline-form-control{
+    align-content: start;
+    align-items: start;
+}
+
 input[type="text"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder,
@@ -1283,28 +1300,23 @@ label{
 
 .dashboard-container{
     display: flex !important;
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid var(--accent-color);
     border-radius: 3px;
     margin-top: 5px;
     margin-bottom: 5px;
     flex-basis: 0 !important;
     flex: 1 1 0px !important;
-    padding: 0.5rem;
-    
-    
 }
-
-.inline-form-control{
-    align-content: start;
-    align-items: start;
-}
-
 
 
 .dashboard-container p {
     height: min-content;
     font-size: 0.9rem !important;
+}
+
+.dashboard-container button{
+    background-color: solid var(--accent-2-color);
 }
 
 .dashboard-container input {
